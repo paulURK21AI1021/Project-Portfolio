@@ -1,0 +1,81 @@
+Name,Check-Ups,Cholesterol Level mg/dL,Heart Rate bpm,Heart-Diagnosis,Blood Sugar Level mg/dL,Blood-Sugar Diagnosis,Diagnosis
+Rohit,1,200,72, Normal,110,Normal,Hypertension
+,2,180,80, High,95,Low,Normal
+,3,220,68,Normal,130,High,Diabetes
+,4,150,75, High,100,Normal,Normal
+,5,190,78, High,115,High,Hyperlipidemia
+,6,210,70, Normal,120,High,Hypertension
+,7,175,76,High,105,Normal,Normal
+,8,230,66, Low,135,High,Diabetes
+,9,160,73,High,95,Low,Normal
+,10,195,77,High,110,Normal,Hyperlipidemia
+,11,205,69,Normal,125,High,Hypertension
+,12,180,80,High,105,Normal,Normal
+,13,240,68,Normal,140,High,Diabetes
+,14,155,74,High,98,Normal,Normal
+,15,185,79,High,120,High,Hyperlipidemia
+,16,210,71,Normal,115,High,Hypertension
+,17,215,67,Low,130,High,Diabetes
+,18,165,72,Normal,100,Normal,Normal
+,19,190,77,High,110,Normal,Normal
+,20,200,70,Normal,125,High,Hypertension
+David,1,210,70,Normal,120,High,Hypertension
+,2,180,75,High,95,Low,Normal
+,3,190,68,Normal,110,Normal,Hyperlipidemia
+,4,160,80,High,100,Normal,Normal
+,5,220,72,Normal,130,High,Diabetes
+,6,195,65,Low,105,Normal,Normal
+,7,205,75,High,115,High,Hypertension
+,8,180,70,Normal,100,Normal,Normal
+,9,190,80,High,120,High,Diabetes
+,10,185,68,Normal,110,Normal,Hyperlipidemia
+,11,175,72,Normal,100,Normal,Normal
+,12,210,80,High,130,High,Hypertension
+,13,195,68,Normal,110,Normal,Hyperlipidemia
+,14,200,75,High,120,High,Diabetes
+,15,185,78,High,105,Normal,Normal
+,16,190,75,High,105,Normal,Normal
+,17,215,70,Normal,125,High,Hypertension
+,18,185,78,High,100,Normal,Normal
+,19,230,68,Normal,135,High,Diabetes
+,20,200,72,Normal,110,Normal,Hyperlipidemia
+Danny,1,195,70,Normal,120,High,Normal
+,2,180,75,High,95,Low,Hypertension
+,3,210,68,Normal,115,High,Hyperlipidemia
+,4,170,80,High,100,Normal,Normal
+,5,220,72,Normal,130,High,Diabetes
+,6,205,75,High,110,Normal,Normal
+,7,190,70,Normal,125,High,Hyperlipidemia
+,8,225,78,High,130,1High,Diabetes
+,9,175,68,Normal,105,Normal,Normal
+,10,200,72,Normal,120,High,Hypertension
+,11,180,72,Normal,105,Normal,Normal
+,12,195,68,Normal,115,High,Hypertension
+,13,210,75,High,125,High,Hyperlipidemia
+,14,190,70,Normal,110,Normal,Normal
+,15,220,78,High,130,High,Diabetes
+,16,200,75,High,120,High,Normal
+,17,180,70,Normal,105,Normal,Hyperlipidemia
+,18,215,72,Normal,125,High,Diabetes
+,19,190,68,Normal,110,Normal,Normal
+,20,205,78,High,130,High,Hypertension
+Vishal,1,190,72,Normal,115,High,Normal
+,2,220,68,Normal,130,High,Hypertension
+,3,185,75,High,105,Normal,Hyperlipidemia
+,4,225,70,Normal,120,High,Diabetes
+,5,200,78,High,110,Normal,Normal
+,6,190,72,Normal,105,Normal,Normal
+,7,195,68,Normal,115,High,Hypertension
+,8,200,75,High,120,High,Hyperlipidemia
+,9,210,70,Normal,125,High,Normal
+,10,220,78,High,130,High,Diabetes
+,11,180,72,Normal,110,Normal,Hypertension
+,12,185,68,Normal,115,High,Hyperlipidemia
+,13,190,75,High,120,High,Normal
+,14,195,70,Normal,125,High,Hypertension
+,15,200,78,High,130,High,Diabetes
+,16,185,72,Normal,105,Normal,Hyperlipidemia
+,17,190,68,Normal,110,Normal,Normal
+,18,195,75,High,115,High,Hypertension
+,19,200,70,Normal,120,High,Hyperlipidemia
+,20,210,78,High,125,High,Normal
