@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Bookings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .result {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Appointment Bookings</h1>
+    <form action="/" method="POST">
+        <label for="date">Enter Appointment Date:</label>
+        <input type="text" id="date" name="date" required>
+        <button type="submit">Find Patients</button>
+    </form>
+    {% if patients %}
+        <div class="result">
+            <h2>Patients Booked for {{ date }}</h2>
+            <ul>
+                {% for patient in patients %}
+                    <li>{{ patient }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</body>
+</html>
