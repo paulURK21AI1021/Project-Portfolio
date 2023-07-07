@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)file:///D:/DiagnosticReport/temp/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Diagnostic Report Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diagnostic Report Predictor</h1>
+    <form action="file:///D:/predict" method="post">
+        <label for="name">Enter the name of the person:</label>
+        <input type="text" id="name" name="name" required="">
+        <input type="submit" value="Predict">
+    </form>
+    
+    {% if diagnosis %}
+    <div class="result">
+        <h2>Diagnostic Report for {{ person_name }}:</h2>
+        <p>Diagnosis: {{ diagnosis }}</p>
+    </div>
+    {% elif message %}
+    <div class="result">
+        <p>{{ message }}</p>
+    </div>
+    {% endif %}
+
+
+</body></html>

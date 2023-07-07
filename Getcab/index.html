@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Get Cabs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   </head>
+   <body>  
+    <header>
+        
+        <div class=" container mainheader">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12"><br></div>
+                </div>
+                <div class="col-md-2">
+                    <a href="#"><img src="assets/images/logo.webp" alt="Logo" /></a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col MainNav ">
+                    <a href="" class="link-light text-decoration-none">HOME</a>
+                </div>
+                <div class="col MainNav ">
+                    <a href="" class="link-light text-decoration-none">ABOUT US</a>
+                </div>
+                <div class="col MainNav">
+                    <a href="" class="link-light text-decoration-none">GET A CAB</a>
+                </div>
+                <div class="col MainNav">
+                    <a href="" class="link-light text-decoration-none">REVIEWS</a>
+                </div>
+                <div class="col MainNav">
+                    <a href="" class="link-light text-decoration-none">OUR NEWS</a>
+                </div>
+                <div class="col MainNav ">
+                    <a href="" class="link-light text-decoration-none">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid sideNav">
+            <div class=" row container-fluid">
+                <div class="col-md-11 "></div>
+                <div class="col-md-1 text-end box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-cart3" viewBox="0 0 16 16"><a href="#">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></a>
+                    </svg>
+                </div>
+                <div class="col-md-11 "></div>
+                <div class="col-md-1 text-end box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16"><a href="#">
+                        <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/></a>
+                      </svg>
+                </div><br>
+                <div class="col-md-11 "></div>
+                <div class="col-md-1 text-end box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-window-fullscreen" viewBox="0 0 16 16"><a href="">
+                        <path d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+                        <path d="M.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5H.5ZM1 5V2h14v3H1Zm0 1h14v8H1V6Z"/></a>
+                      </svg>
+                </div><br>
+            </div>
+        </div> -->
+    </header>
+    <section>
+        <div class="container-fluid topRibbon">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" ></div>
+                    <div class="col-md-6 text-end callIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="green" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                             <span><a href="#" class="link-secondary text-decoration-none">8(800)7668990</a></span>
+                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="green" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            <span><a href="" class="link-secondary text-decoration-none">8(800)7668991</a></span>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid homeBanner">
+            <div class="container">
+                <div class="row  align-item-center">
+                    <div class="col-md-8 homeBannerContent">
+                        <h1>Download the app<br><span>and Order Your Taxi Online</span></h1>
+                        <p>Lorem ipsum dolor sit amet, ei habemus nominavi inimicus usu, ei est quem<br>indoctum aliquando. His an dolorum eloquentiam lorem ipsum dolor sit amet.</p>
+                        <button class="btn-group btn-primary buttons "><a href="#" class="text-decoration-none ">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                                <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+                                <span>&nbsp;Google Play </span> 
+                            </svg></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                        <button class="btn-group btn-primary buttons"><a href="#" class="text-decoration-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                <span>&nbsp;Apple Store</span>
+                            </svg></a></button>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2nd Page -->
+    <section>
+        <div class="container pt-5 pb-5 page2">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/SecondPage.jpg" alt="carLady" />
+                </div>
+                    <div class="col">
+                      <span>WELCOME TO GETCAB</span>
+                      <h2>Online Taxi Booking</h2>
+                      <p>Lorem ipsum dolor sit amet, ei habemus nominavi inimicus usu, ei est quem indoctum aliquando. His an dolorum eloquentiam lorem ipsum dolor sit amet, ei habemus nominavi inimicus usu, ei est quem indoctum aliquando his an.</p>
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit vestibulum</li>
+                                    <li>Amet consectetuer adipi</li>
+                                    <li>Scing elit, sed a diam dolor sit</li>   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit vestibulum</li>
+                                    <li>Amet consectetuer adipi</li>
+                                    <li>Scing elit, sed a diam dolor sit</li>   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row MoreButton">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 text-center">
+                    <span class=" btn btn-primary active">More About Us</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3rd Page -->
+    <section>
+        <div class="container-fluid pt-5 pb-10  section2_img">
+            <div class="row ">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8 text-center ribbon">
+                    <h6>WHAT WE OFFER</h6>
+                    <h2>Our Featured Services</h2>
+                    <p>We created our taxi to help you to find the most dependable and highest quality taxi services, anytime and anywhere. All our drivers are uniformed and fully licensed.</p>
+                </div>
+                <div class="row WhiteContent">
+                    <div class="col-md-1" ></div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                            <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                          </svg><br>
+                        <a href="#">Address Pickup</a>
+                        <p>We always pick up our clients on time, 24/7 availability.</p>
+                    </div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+                            <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
+                          </svg><br>
+                        <a href="#">Airport Transfer</a>
+                        <p>GetCab specialized in 24 hours airport transfer service.</p>
+                    </div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+                          </svg><br>
+                        <a href="#">Long Distance</a>
+                        <p>We offer you a long distance taxi service to anywhere.</p>
+                    </div>
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-taxi-front-fill" viewBox="0 0 16 16">
+                            <path d="M6 1a1 1 0 0 0-1 1v1h-.181A2.5 2.5 0 0 0 2.52 4.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 9.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 3H11V2a1 1 0 0 0-1-1H6ZM4.309 4h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731l.956-1.913A.5.5 0 0 1 4.309 4ZM4 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 0a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"/>
+                          </svg><br>
+                        <a href="#">Taxi Tours</a>
+                        <p>We offer taxi tours of various durations and complexity.</p>
+                    </div> 
+                    <div class="col-md-1" ></div>     
+                </div>
+                
+                <div class="row button">
+                    <div class="col-md-12 text-center">
+                        <div class="btn-group hover-overlay">
+                            <a href="#" class="btn btn-primary active">View More Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 4th Page -->
+        <section>
+            <div class="container pt-5 pb-5  page4">
+                <div class="row ">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8 text-center ribbon">
+                        <h6>MAIN FEATURES</h6>
+                        <h2>Our Benefits</h2>
+                    </div>
+                    <div class="row WhiteContent">
+                        <div class="col-md-8" ></div>     
+                        </div>
+                        <div class="col">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="21" height="42" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                            </svg>
+                            <a href="#">Address Pickup</a>
+                            <p>We always pick up our clients on time, 24/7 availability.</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="42" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+                                <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
+                            </svg>
+                            <a href="#">Airport Transfer</a>
+                            <p>GetCab specialized in 24 hours airport transfer service.</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="42" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+                            </svg>
+                            <a href="#">Long Distance</a>
+                            <p>We offer you a long distance taxi service to anywhere.</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="42" fill="currentColor" class="bi bi-taxi-front-fill" viewBox="0 0 16 16">
+                                <path d="M6 1a1 1 0 0 0-1 1v1h-.181A2.5 2.5 0 0 0 2.52 4.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 9.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 3H11V2a1 1 0 0 0-1-1H6ZM4.309 4h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731l.956-1.913A.5.5 0 0 1 4.309 4ZM4 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 0a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"/>
+                            </svg>
+                            <a href="#">Taxi Tours</a>
+                            <p>We offer taxi tours of various durations and complexity.</p>
+                        </div> 
+                           
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-6 text-end">
+                        <div class="embed-responsive embed-responsive-1by1 ">
+                          <iframe width="360" height="215" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6"> 
+                </div>
+            </div>
+        </section>
+        <!-- 5th Page -->
+        <section>
+            <div class="container-fluid page5">
+                <div class="container page5Contents">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6>GET YOUR REWARDS</h6>
+                            <h2>Rate Our App and Get<br>One Free Trip</h2>
+                            <p>Lorem ipsum dolor sit amet, ei habemus nominavi inimicus usu, ei est quem indoctum aliquando. His an dolorum<br>eloquentiam, ei vel quidam feugiat admodum.</p>
+                        </div>
+                        <div class="col-md-4    "></div>
+                        <div class="col-md-4 Ratebutton">
+                            <a href="#" >Rate GetCab App Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 6th Page -->
+        <section>
+            <div class="container page6">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h6>STAY IN TOUCH</h6>
+                        <h2>Discover Our Latest News</h2>
+                        <div class="row">
+                            <div class="col">
+                            <img src="assets/images/page6– GetCab_files/image-1-370x300.jpg">
+                            <a href="#">Taxi Benefits that Save Time and Money</a>
+                            </div>
+                            <div class="col">
+                            <img src="assets/images/page6– GetCab_files/image-4-370x300.jpg">
+                            <a href="#">5 Advantages of Using a Cab Service</a>
+                            </div>
+                        </div><br>
+                        <div class="row">
+                            <div class="col ">
+                            <a href="#">
+                                <img src="assets/images/page6– GetCab_files/image-5-370x300.jpg">
+                                Top 5 Apps To Book Taxi From Your Device</a>
+                            </div>
+                            <div class="col">
+                            <img src="assets/images/page6– GetCab_files/image-8-370x300.jpg">
+                            <a href="#">10 Bizarre Taxi Cab Stories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col page6Right">
+                        <div class=" topps">
+                            <h3>Subscribe to Our News letter</h3>
+                            <p>Lorem ipsum dolor sit amet vivamus habemus nominavi inimicus usu, ei est quem indoctum aliquando his</p>
+                            <div class="Email">
+                               <input type="email" placeholder="Enter your email">
+                                <button type="submit" class="icon-paper-plane sc_button_hover_slide_left" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                                    </svg>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 7th Page -->
+            <section>
+                <div class="container-fluid page7">
+                    <div class="container">
+                        <div class="row">
+                           <div class="col-md-12">
+                               <h6>WE ARE HIRING</h6>
+                                <h2>Looking for a Job?
+                                <br>Become GetCub Driver</h2>
+                                <div class="row inputs">
+                                    <div class="col-md-2">
+                                       <input type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="email" placeholder="Your Email">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" placeholder="Your Question">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                       <input type="number" placeholder="Your Phone">
+                                    </div>
+                                    <div class="col-md-2">
+                                       <input type="text" placeholder="Your City">
+                                    </div>
+                                    <div class="col-md-12 checkbox">
+                                        <input type="checkbox" ><label>&nbsp;   I agree that my submitted data is being collected and stored.</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button>Submit a Response</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <footer>
+        <div class="container-fluid footter">
+            <div class="container">
+                <div class="container row">
+                    <div class="col-md-3">
+                        <a href="#"><img src="assets/images/logo.webp" alt="Logo" /></a>
+                        <p>We created our taxi to help you to find the most dependable and highest quality taxi services, anytime and anywhere without any problems.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Useful Links</h3>
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>Home</a></li>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>Get a Cab</a></li>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>Our News</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>About Us</a></li>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>Reviews</a></li>
+                                    <li><a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                          </svg>Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><a href="email" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                  </svg>&nbsp;&nbsp;&nbsp;taxiservice@info.com</a></li>
+                            <li><a href="phone" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                  </svg>&nbsp;&nbsp;&nbsp;8 (800) 766 89 90</a></li>
+                            <li><a href="#" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                  </svg>&nbsp;&nbsp;&nbsp;550 Mill Pond Ave. Arlington</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Subcribe to us</h3>
+                        <p>Subscribe to Our Newsletters!</p>
+                        <div class="emailBox">
+                            <input type="email" placeholder="Enter youre-mail">
+                            <button> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                            </svg></button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row foot">
+                    <div class="col-md-12 ">
+                        <a href="#" style="color: white;">AncoraThemes</a>
+                        © 2023. All Rights Reserved.
+                        <span>
+                            <a href="twitter" class="text-end"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                              </svg></a>&nbsp;&nbsp;
+                            <a href="facebook" class="text-end"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg></a>&nbsp;&nbsp;
+                            <a href="dribble" class="text-end"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                              </svg></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   </body>
+</html>

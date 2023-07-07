@@ -1,0 +1,91 @@
+header{position: fixed;top:0;left:0;width: 100%;}
+.homeBanner{background: url(../images/slider_home5_bg.jpg) no-repeat;min-height: 100vh;background-size:cover ; }
+.homeBanner p{padding-top: 30px; padding-bottom: 30px;}
+.topRibbon{background: #3a3a3a; padding-top: 5px; font-size: small; height: 35px; }
+.mainheader{padding-top: 45px;padding-bottom: 45px; }
+.section2_img{background: url(../images/slider_home5_bg.jpg) no-repeat; min-height: 100vh;background-size: cover;}
+.ribbon{color: blue; }
+.section2_img h6{color: #7ad03a;font-family: dosis,sans-serif;font-weight: 800; font-size: 1rem; padding-top: 40px;}
+.section2_img h2{color: white; padding-top: 10px;}
+.section2_img p{color: #C9C9C9; padding-top: 20px; font-size: 14px; font-family: dosis, sans-serif; }
+.WhiteContent a{color: white; padding-top: 60px; text-align: center; text-decoration: none; font-size: 28px;}
+.WhiteContent a:hover{color: #32CD32; transition-duration: 0.5s;}
+.WhiteContent{ padding-top: 60px; text-align: center; text-decoration: none;}
+.WhiteContent p{text-align: center; }
+.WhiteContent svg{padding-bottom: 20px;text-align: center;color: #67b612;}   
+.btn.btn-primary.active{background-color: #7ad03a; border-radius: 23px; border-color: #7ad03a ;}
+.btn.btn-primary.active:hover{background-image: linear-gradient(to right,#32CD32 0%,#90EE90 51%,#32CD32 100%); transition: 0.7s all;}
+.button{padding-top: 50px;}
+.blackSubHead{color: #000000; }
+.blackContent{color: black; }
+.callIcon{width: 20px;}
+.phoneNo{color: #666;}
+.MainNav{color: white; border-radius: 25px;}
+.MainNav:hover{width: 15%;height: 30%; background-color: #7ad03a; text-align: center;}
+.homeBannerContent h1{color: white; padding-top: 200px; font-weight: bolder; font-size:48px;}
+.homeBannerContent h1 span{color: #7ad03a; font-weight: bolder;}
+.homeBannerContent p{color: white; font-size: small;}
+.buttons{background-color: #ddd;border: none;color: black;padding: 10px 20px;text-align: center;text-decoration: none;display: inline-block;margin: 4px 2px;cursor: pointer;border-radius: 50px;}
+.buttons:hover{background-color: #7ad03a ; color: white;}
+.page2 span{color: #7ad03a; font-weight: bolder;}
+.page2 h2{padding-bottom: 30px; color: #343332; font-size: 3.1rem; font-family: raleway,sans-serif; font-weight: 900;font-style: normal;}
+.page2 p{color: #343332; font-family: raleway,sans-serif;text-align: left;}
+.imge{width: 540; height: 365; text-align: left; }
+.page2 ul li{font-size: 14px; color: #343332; list-style: none;}
+.page2 ul li:before {content: '✓'; color: green; font-weight: bolder; text-align: left;}
+.homeBannerContent svg{color: #666;}
+.box{background-color: #ffc000; color: #ffff; width: 40px;height: 60px; line-height: 60px; text-align: left;}
+.page4 a{color: #343332; padding-top: 60px; text-align: center  ; text-decoration: none; font-size: 21px;}
+.page4 a:hover{color: #32CD32; transition-duration: 0.5s;}
+.page4{  text-align: left; text-decoration: none;}
+.page4 p{text-align: left; }
+.page4 svg{color: #67b612;} 
+.page4 h6{color: #7ad03a;font-family: dosis,sans-serif;font-weight: 800; font-size: 13px; padding-top: 40px; font-family:  dosis,sans-serif;}
+.page4 h2{color: #343332; padding-top: 10px; font-size: 44.59px; font-weight: 900;}
+.page4 p{color: #C9C9C9; padding-top: 0px; font-size: 14px; font-family: dosis, sans-serif; }
+.page5{background: url(../images/slider_home5_bg.jpg) no-repeat;min-height: 75vh;background-size:cover ; width: 100%;}
+.page5Contents h6{color: #7ad03a;font-family: dosis,sans-serif;font-weight: 800; font-size: 13px; padding-top: 40px;}
+.page5Contents h2{color: white; padding-top: 10px; font-size: 44.59px; font-weight: 900     ;}
+.page5Contents p{color: #f1f1f1;; padding-top: 20px;padding-bottom: 20px; font-size: 14px; font-family: dosis, sans-serif; text-align: center;}
+.page5Contents a{color: white; margin-top: 60px; text-align: center; text-decoration: none; font-size: 28px;}
+.page5Contents{ padding-top: 60px; text-align: center; text-decoration: none;}
+.page5 {text-align: center;}
+.page5Contents a:hover{ background-image: linear-gradient(to right,#32CD32 0%,#90EE90 51%,#32CD32 100%); transition: 0.7s all;}
+.Ratebutton{background-color: #7ad03a; border-radius: 23px; border-color: #7ad03a ; width: 10px; padding-left: 10px;}
+/* Page6 */
+.page6 h6{padding-top: 100px; padding-bottom: 20px; color: #67b612; font-size: 13px; font-weight: 800;}
+.page6 h2{padding-bottom: 50px; color: #343332; font-size: 44.59px; font-weight: 900;}
+.page6 a{ text-decoration: none; color: #272727; text-align: right; font-size: 16.7;}
+.page6 a:hover{color: #67b612; transition-duration: 0.4s;}
+.page6 img{width: 93px; height: 76px; text-align: left;}
+.page6{padding-right: 20px;}
+.page6 svg{color: #32CD32;}
+.page6 input{background-color: #272727; border-radius: 25px; position: absolute; padding: 8px; padding-right: 150px; border-color: #272727; margin-top: 70px;}
+.page6 button{background-color: #272727; border-radius: 25px; position: relative; margin-left: 310px; padding: 8px;border-color: #272727;}
+.page6 h3{margin-top: 150px ;}
+.page6Right p{padding-top: 50px; text-align: justify;}
+.page6Right button{margin-top: 70px;}
+.page6Right{background-color: #C9C9C9; box-sizing: border-box;box-shadow: inset 0 0 10px 10px grey  ;}
+.topps{margin: 50px;}
+.page7{background: url(../images/slider_home5_bg.jpg) no-repeat; height: 80vh;background-size: cover; }
+.page7 h6{margin-top: 100px; padding-bottom: 20px; color: #67b612; font-weight: 800; font-size: 13px;text-align: center;}
+.page7 h2{padding-bottom: 20px; color: white; font-size: 49px; font-weight: 900;text-align: center;} 
+.page7 input{margin-left: 250px;}
+.checkbox{margin-left: 100px; color: white; opacity: 0.5;padding-top: 30px;}
+.Requestbutton{border-radius: 25px;}
+.page7 button{background-color: #7ad03a; border-radius: 23px; border-color: #7ad03a ; text-decoration: none; margin-left: 500px; margin-top: 30px; opacity: 0.5;color: #000000;}
+.page7 button:hover{background-image: linear-gradient(to right,#32CD32 0%,#90EE90 51%,#32CD32 100%); transition-duration: 1s;}
+/* Footer */
+.footter{background-color: #343332; padding-bottom: 50px; padding-top: 50px;}
+.footter p{padding-top: 50px; color: #c8c8c8;font-size: 14px;}
+.footter a{text-decoration: none; color: #c8c8c8; }
+.footter h3{color: #f1f1f1;text-align: center; font-size: 1.375em; padding-right: 60px;}
+.footter ul{padding-top: 50px; }
+.footter ul li{text-align: left; font-size: 14px; list-style: none;}
+.footter svg{color: #32CD32;}
+.footter input{border-radius: 25px; padding: 10px;border-color: white;position: absolute; background-color: white ;}
+.footter button{border-radius: 25px;padding: 10px; border-color: white;position: relative; margin-left: 170px; background-color: white;}
+.footter hr{color: #fff;}
+.foot span{padding-left: 700px;}
+.foot{color: #c8c8c8;}
+.Brand{color: white;}
