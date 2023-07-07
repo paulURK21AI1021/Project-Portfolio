@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Three Diagnoses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        input[type="text"] {
+            padding: 6px;
+            font-size: 16px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #666;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top Three Diagnoses</h1>
+    <form action="/" method="POST">
+        <label for="name">Enter Patient Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Predict</button>
+    </form>
+    {% if name %}
+        <h2>Patient Name: {{ name }}</h2>
+        {% if diagnoses %}
+            <h3>Top Three Diagnoses:</h3>
+            <ul>
+                {% for diagnosis, percentage in diagnoses %}
+                <li>{{ diagnosis }}: {{ percentage }}%</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No diagnoses found for the patient.</p>
+        {% endif %}
+    {% endif %}
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+</body>
+</html>
+    
